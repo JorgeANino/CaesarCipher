@@ -13,7 +13,6 @@ def caesars_encrypt(plain_text, k):
    return cipher_text
 
 def main(argv):
-   k = 0
    if len(argv) != 1:
       print("Usage: python caesar.py k")
       sys.exit(-1)
